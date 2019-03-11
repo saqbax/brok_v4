@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html >
+<head>
+<title> Brokmake| Teasing </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, maximum-scale=1" />
+
+<meta name="theme-color" content="#283641">
+
+<meta name="msapplication-navbutton-color" content="#283641">
+
+<style>
+            html {
+                letter-spacing: 5px;
+                font-family: ElanITCStdBold;
+                color: white;
+                margin:0;
+                padding:0;
+                background: black;
+                -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+                background-size: cover; /* version standardisée */
+                text-align: center;
+            }
+            #fs-logo {
+                margin-top: 80px;
+                margin-bottom: 50px;
+            }
+            #website-link {
+                position: fixed;
+                top: 20px;
+                right: 40px;
+            }
+            #block-video
+            {
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                padding-top: 30px; height: 0; overflow: hidden;
+            }
+
+            .video-container iframe,
+            .video-container object,
+            .video-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            #website-link a {
+                border: 3px solid #fff;
+                border-radius: 50px;
+                overflow: hidden;
+                font-size: 16px;
+                text-decoration: none;
+                color: white;
+            }
+            /* General button style (reset) */
+            .btn {
+                border: none;
+                font-family: inherit;
+                /*font-size: inherit;*/
+                color: inherit;
+                background: none;
+                cursor: pointer;
+                /*padding: 25px 80px;*/
+                display: inline-block;
+                margin: 15px 30px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 700;
+                outline: none;
+                position: relative;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+
+            .btn:after {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+
+
+            /* Button 4 */
+            .btn-4 {
+                /*border-radius: 50px;
+                border: 3px solid #fff;*/
+                color: #fff;
+                overflow: hidden;
+            }
+        </style>
+</head>
+<body>
+<div id="website-link"> 
+    <button class="btn btn-4 btn-4a icon-arrow-right" onclick="window.location.href = '/brok_v4/home'">
+        Continuar a la página web 
+    </button>
+</div>
+<img id="fs-logo" src="../img/logo1.webp">
+<div id="block-video">
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/odQhOWlUq_w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+</body>
+</html>
